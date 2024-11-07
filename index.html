@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+
+<body>
+<!-- Desktop Navigation -->
+<nav id="desktop-nav">
+    <div class="logo">Waveix</div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Mobile Navigation -->
+<nav id="hamburger-nav">
+    <div class="logo">Kaleab Yilma</div>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Profile Section -->
+<section id="profile">
+    <div class="profile-container">
+        <img src="./assets/MAIN.png" alt="Profile Picture of Kaleab Yilma" class="profile-pic">
+        <div class="profile-text">
+            <p>Hello, I'm</p>
+            <h1>Kaleab Yilma</h1>
+            <p> Graphic designer & Fullstack Developer </p>
+            <div class="btn-container">
+                <button class="btn btn-download" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-contact" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div class="socials-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="icon" onclick="window.open('https://linkedin.com/in/kaleab-yilma-99545a2b2')">
+                <img src="./assets/github.png" alt="GitHub Profile" class="icon" onclick="window.open('https://github.com/kaleab16')">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="about-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="About picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="detail-container">
+                    <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                    <h3>Experience</h3>
+                    <p>2 years<br>Fullstack<br>Graphic Design</p>
+                </div>
+                <div class="detail-container">
+                    <img src="./assets/education.png" alt="Education icon" class="icon">
+                    <h3>Education</h3>
+                    <p>1 year<br>BSP College<br>Udemy Online Learning</p>
+                </div>
+                <div class="text-container">
+                    <p>I'm Kaleab Yilma—a designer by training and a developer by determination. I honed my graphic design skills at 
+                         Berhan Selam Printing College, and in the same year, 
+                         I taught myself full-stack development. 
+                         I’m here to create, innovate, and make a lasting impact.
+                         Driven by grit and ambition, 
+                         I’m ready to use my skills to shape the future.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='#experience'">
+    </section>
+
+   <!-- Experience Section -->
+<section id="experience" class="experience">
+    <p class="section__text__p1">Explore my experience</p>
+    <h1>Experience</h1>
+
+    <div class="experience-detail-container">
+        <!-- Graphic Design Experience -->
+        <div class="details-container">
+            <h2 class="experience-sub-title">Graphic Design</h2>
+            <div class="article-container">
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Photoshop</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Illustrator</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>InDesign</h3>
+                        <p>Beginner</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Affinity Designer</h3>
+                        <p>Beginner</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Affinity Photo</h3>
+                        <p>Beginner</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>Affinity Publisher</h3>
+                        <p>Beginner</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Fullstack Development Experience -->
+        <div class="details-container">
+            <h2 class="experience-sub-title">Fullstack</h2>
+            <div class="article-container">
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>HTML</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                    <div>
+                        <h3>JavaScript</h3>
+                        <p>Beginner</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+</section>
+
+<!-- Project Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+        <div class="project-card" onclick="openFullScreen('assets/logo.png', 'Project One', 'This is a description of Project One.')">
+            <img src="assets/logo.png" alt="Project One" class="project-image">
+            <h3>Project One</h3>
+            <p>This is a description of Project One.</p>
+        </div>
+        <div class="project-card" onclick="openFullScreen('assets/poster.png', 'Project Two', 'This is a description of Project Two.')">
+            <img src="assets/poster.png" alt="Project Two" class="project-image">
+            <h3>Project Two</h3>
+            <p>This is a description of Project Two.</p>
+        </div>
+        <div class="project-card" onclick="openFullScreen('assets/Close to Heaven_    Breathtaking_,         poster design       2.png', 'Project Three', 'This is a description of Project Three.')">
+            <img src="assets/Close to Heaven_    Breathtaking_,         poster design       2.png" alt="Project Three" class="project-image">
+            <h3>Project Three</h3>
+            <p>This is a description of Project Three.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Full-Screen Overlay -->
+<div id="fullScreenOverlay" class="overlay" onclick="closeFullScreen()">
+    <img id="fullScreenImage" src="" alt="Full Screen" />
+    <div class="overlay-text">
+        <h3 id="overlayTitle"></h3>
+        <p id="overlayDescription"></p>
+    </div>
+</div>
+
+   
+<section id="contact">
+   <!-- Contact Section -->
+   <div class="contact-section">
+    <h3>Contact Me</h3>
+    <div class="contact-info">
+        <a href="mailto:waveixdesigns@gmail.com" class="contact-link">
+            <img src="./assets/email.png" alt="Email Icon"> 
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="contact-link">
+            <img src="./assets/linkedin.png" alt="LinkedIn Icon"> 
+        </a>
+        <a href="https://t.me/Waveix" target="_blank" class="contact-link">
+            <img src="./assets/telegram.png" alt="Telegram Icon"> 
+        </a>
+        <a href="https://www.instagram.com/waveix_designs" target="_blank" class="contact-link">
+            <img src="./assets/instagram-icon.png" alt="Instagram Icon"> 
+        </a>
+    </div>
+</div>
+
+</section>
+<footer>
+
+    <!-- Navigation Links -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Copyright -->
+    <p>&copy; 2024 Kaleab Yilma. All rights reserved.</p>
+</footer>
+
+
+<script>
+    let scale = 1; // Initial scale for zoom
+    
+    function openFullScreen(imageSrc, title, description) {
+        // Get overlay elements
+        const overlay = document.getElementById('fullScreenOverlay');
+        const fullScreenImage = document.getElementById('fullScreenImage');
+        const overlayTitle = document.getElementById('overlayTitle');
+        const overlayDescription = document.getElementById('overlayDescription');
+    
+        // Set overlay image and text
+        fullScreenImage.src = imageSrc;
+        overlayTitle.textContent = title;
+        overlayDescription.textContent = description;
+    
+        // Reset scale for zoom on open
+        scale = 1;
+        fullScreenImage.style.transform = `scale(${scale})`;
+    
+        // Display the overlay
+        overlay.style.display = 'flex';
+    }
+    
+    function closeFullScreen() {
+        // Hide the overlay
+        document.getElementById('fullScreenOverlay').style.display = 'none';
+    }
+    
+    function zoomImage(event) {
+        // Only zoom if Alt key is pressed
+        if (event.altKey) {
+            // Prevent default scroll behavior
+            event.preventDefault();
+    
+            // Update scale based on wheel direction
+            if (event.deltaY < 0) {
+                scale += 0.1; // Zoom in
+            } else if (event.deltaY > 0) {
+                scale -= 0.1; // Zoom out
+            }
+    
+            // Set a minimum and maximum scale limit
+            scale = Math.min(Math.max(0.5, scale), 3);
+    
+            // Apply the scale transformation to the image
+            document.getElementById('fullScreenImage').style.transform = `scale(${scale})`;
+        }
+    }
+    document.getElementById('fullScreenOverlay').addEventListener('wheel', zoomImage);
+</script>
+ <script src="script.js"></script>
+</body>
+</html>

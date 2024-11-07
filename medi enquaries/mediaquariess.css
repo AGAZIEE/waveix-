@@ -1,0 +1,16 @@
+@media screen and (max-width:1200px){
+    #profile{
+        display:none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display:none;
+    }
+    #hamburger-nav{
+        display:flex;
+    }
+}
